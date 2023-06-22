@@ -1,0 +1,8 @@
+{% extends 'main.html' %}
+
+{% block body %}
+  {% for i in data %}
+    <p><b>framework</b> {{i.framework}}<p>
+      <p><b>Year</b> {{i.year}}</p>
+  {% endfor %}
+{% endblock %}

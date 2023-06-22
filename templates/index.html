@@ -1,0 +1,11 @@
+{% extends 'main.html'%}
+
+{% block body%}
+
+  {% if year == 2024 %}
+    <h1>{{framework2024}}</h1>
+    {%else %}
+    <h1> {{framework2023}} </h1> 
+  {% endif %}
+  
+{% endblock %}
